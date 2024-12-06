@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Sets the character encoding of the document to UTF-8, which includes most characters from all languages -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Ensures that Internet Explorer uses the latest rendering engine for proper page display -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Makes the page responsive, adapting to different screen sizes -->
+  <title>Portfolio</title> <!-- The title of the webpage displayed in the browser tab -->
+  <!-- ====== CSS Files ===== -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Links the main CSS stylesheet that controls the overall layout and style of the page -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <!-- Links Boxicons CSS library for using vector icons (icons for social media, UI, etc.) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <!-- Links Font Awesome CSS for using a wide range of icons -->
+  <title>Medina Website</title>
+</head>
+
+<body>
+
+
+
+  <header class="header">
+    <a href="#" class="logo"><span>Port</span>folio</a>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+    </nav>
+    <a href="#contact" class="contact">Contact Me</a>
+  </header>
+
+
+  <!-- HOME CODE START-->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hi</h3>
+      <h1>I'm <span>Medina </span>a student Cybersecurity Developer</h1>
+      <p>I'm a student BSIT undergraduate enrolled in the University of the Cordilleras.
+        I am currently studying my specialization in Security and Networking. This is my Website to compile and showcase
+        my works.  </p>
+      <div class="btn-box">
+        <button class="btn-1">Call Me</button>
+        <button class="btn-2">Experience</button>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="image/displaypicture.jpg" alt="Image Bugged if you see this">
+    </div>
+  </section>
+  <!-- HOME CODE END-->
+
+  <!-- ABOUT CODE START-->
+  <section class="about">
+    <div class="about-img">
+    </div>
+    <div class="about-content" id="about">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Student <span>Developer</span></h3>
+      <p>Good day, I’m Medina, Josiah Micael, a Student Web Developer focusing on my Bachelor of Science in
+        Information Technology majoring in Network and Security from the University of the Cordilleras.</p>
+      <a href="#" class="btn-2">Experience</a>
+    </div>
+  </section>
+  <!-- ABOUT CODE END-->
+
+
+  <!-- ===== Portfolio Section Start ===== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="portfolio-heading">
+          <h2>Projects:</h2>
+        </div>
+      </div>
+      <div class="row portfolio-container">
+        <!-- ===== Portfolio item Start=====-->
+        <div class="portfolio-item">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="images/portfolio/Banking System.png" alt="Screenshot of Project 1">
+              <div class="portfolio-overlay">
+                <h3>Banking System</h3>
+                <p>Implemented a program that allows users to withdraw from their bank account. It also handle error when withdrawing above the balance</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ===== Portfolio item End=====-->
+
+        <!-- ===== Portfolio item Start=====-->
+        <div class="portfolio-item">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="images/portfolio/Classroom Attendance System.png" alt="Screenshot of Project 2">
+              <div class="portfolio-overlay">
+                <h3>Classroom Attendance System</h3>
+                <p>Implemented a program that checks how many present and absent in the class</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ===== Portfolio item End=====-->
+
+        <!-- ===== Portfolio item Start=====-->
+        <div class="portfolio-item">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="images/portfolio/Grocery Calculator System.png" alt="Screenshot of Project 3">
+              <div class="portfolio-overlay">
+                <h3>Grocery Calculator System</h3>
+                <p>Grocery Calculator for calculating the price and quantity.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ===== Portfolio item End=====-->
+
+        <!-- ===== Portfolio item Start=====-->
+        <div class="portfolio-item">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="images/portfolio/Store Inventory System.png" alt="Screenshot of Project 4">
+              <div class="portfolio-overlay">
+                <h3>Store Inventory System</h3>
+                <p> Enter the number of stocks and the price of it and total it per product and its all in all total.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ===== Portfolio item End=====-->
+
+        <!-- ===== Portfolio item Start=====-->
+        <div class="portfolio-item">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="images/portfolio/Weather System.png" alt="Screenshot of Project 5">
+              <div class="portfolio-overlay">
+                <h3>Weather System</h3>
+                <p>Collects data of weather or temperature for 3 cities for the past 7 days.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ===== Portfolio item End=====-->
+      </div>
+    </div>
+  </section>
+  <!-- ===== Portfolio Section End ===== -->
+
+
+
+  <!-- Contacts CODE START-->
+  <section class="contact-form" id="contact">
+    <h2 class="contact-me">Contact <span>Me</span></h2>
+    <form action="#">
+
+      <div class="input-box">
+        <div class="column">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email">
+        </div>
+
+        <div class="column">
+          <input type="number" placeholder="Phone Number">
+          <input type="text" placeholder="Subject">
+        </div>
+      </div>
+
+      <textarea name="" id="" cols="30" rows="10" placeholder="What is your Message?"></textarea>
+      <input type="submit" value="Send Message" class="btn-1">
+
+    </form>
+    <!-- Contacts CODE END-->
+  </section>
+
+  <footer class = "footer">
+
+      <div class="Socials">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzSFDCPGbDXTsZVMCZjbZzVmtWmCPLMCsqwrBpjdCXkPdZFLfBrDMNcqJWlcSBrcjWP"><i class='bx bxl-gmail' ></i></a>
+        <b href="https://www.facebook.com/josiah.medina.10/"><i class='bx bxl-facebook-circle' ></i></a>
+      </div>
+
+  </footer>
+</body>
+
+</html>
